@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Услуги</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О нас</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Галерея</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="logo" href="#"><img src="images/logo.png" alt="лого"></a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Блог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link menu__list-link--active" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__btn-menu">
+            <img src="images/btn-icon-menu.svg" alt="меню">
+          </button>
+          <button class="header__btn">
+            <img src="images/icon_menu.svg" alt="меню">
+          </button>
+          <div class="rightside-menu rightside-menu--close">
+            <button class="rightside-menu__close">
+              <img src="images/close.svg" alt="">
+            </button>
+
+            <div class="rightside-menu__logo">
+              <a href="#" class="logo">
+                <img src="images/logo-big.png" alt="логотип">
+              </a>
+            </div>
+            <div class="rightside-menu__content">
+              <nav class="extra-menu">
+                <ul class="extra-menu__menu-list">
+                  <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Доставка</a></li>
+                  <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Тендеры</a></li>
+                  <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Оптовые закупки</a></li>
+                  <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Индивидуальный заказ</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="#" class="breadcrumbs__link">Конакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.7370171115124!2d30.369748015411705!3d59.91991177057204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631c9d62704b1%3A0x538951b76e03616c!2z0JrRgNC10LzQtdC90YfRg9Cz0YHQutCw0Y8g0YPQuy4sIDE5INC60L7RgNC_0YPRgSAxLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTY3!5e0!3m2!1sru!2sru!4v1659341036955!5m2!1sru!2sru"
+          width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <section class="contact">
+        <div class="container">
+          <h3 class="contact__title">Наши контакты:</h3>
+          <ul class="contact__social">
+            <li class="contact__socila-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/instagram.svg" alt="instagram" class="contact__social-img">
+              </a>
+            </li>
+            <li class="contact__socila-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/whatsapp.svg" alt="whatsapp" class="contact__social-img">
+              </a>
+            </li>
+            <li class="contact__socila-item">
+              <a href="#" class="contact__social-link">
+                <img src="images/globe.svg" alt="globe" class="contact__social-img">
+              </a>
+            </li>
+          </ul>
+          <div class="contact__box">
+            <p class="contact__text">Мы готовы ответить на ваши вопросы. Оставьте свой номер телефона и получите
+              подробную консультацию</p>
+            <a href="tel:88005007082" class="contact__phone">8 (800) 500-70-82</a>
+            <div class="contact__street">ул. Кременчугская, дом 19, корп.1, оф.58. БЦ "Царская столица"
+            </div>
+            <div class="contact__city">Санкт-Петербург</div>
+            <a href="mailto:info@2ps4.ru" class="info-email">info@2ps4.ru</a>
+          </div>
+          <form class="contact__form">
+            <input class="contact__form-input" placeholder="Ваше имя" type="text">
+            <input class="contact__form-input" placeholder="E-mail" type="email">
+            <textarea class="contact__form-area" placeholder="Опишите задачу"></textarea>
+            <button type="submit" class="contact__form-btn button">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <section class="collection">
+        <div class="container-fluid">
+          <div class="collection-items">
+            <div class="collection-items__item">
+              <img src="images/content/collection1.jpg" alt="сканер" class="collection-items__images">
+              <div class="collection-items__info">
+                <h6 class="collection-items__info-title">3D-сканирование</h6>
+                <p class="collection-items__info-text">технология сбора трехмерных данных о форме и
+                  внешнем виде физического объекта для воссоздания его цифровой 3D-модели.
+                </p>
+              </div>
+            </div>
+            <div class="collection-items__item">
+              <img src="images/content/collection2.jpg" alt="3д модель" class="collection-items__images">
+              <div class="collection-items__info">
+                <h6 class="collection-items__info-title">Реверс-инжиниринг</h6>
+                <p class="collection-items__info-text">обратный инжиниринг, обратное проектирование. Позволяет
+                  восстановить конструкторскую
+                  документацию для дальнейшего использования при создании аналогичного изделия.
+                </p>
+              </div>
+            </div>
+            <div class="collection-items__item">
+              <img src="images/content/collection3.jpg" alt="деталь" class="collection-items__images">
+              <div class="collection-items__info">
+                <h6 class="collection-items__info-title">Полигональное моделирование</h6>
+                <p class="collection-items__info-text">Построение 3D-модели объектов с помощью
+                  специальных плоскостей - полигонов.
+                  Чаще всего применяется в промышленном
+                  дизайне.
+                </p>
+              </div>
+            </div>
+            <div class="collection-items__item">
+              <img src="images/content/collection4.jpg" alt="деталь" class="collection-items__images">
+              <div class="collection-items__info">
+                <h6 class="collection-items__info-title">Твердотельное моделирование</h6>
+                <p class="collection-items__info-text">Проектирование тел, имеющих все признаки
+                  физического тела. Применяется при
+                  проектировании деталей и изделий
+                  производственной отрасли.
+                </p>
+              </div>
+            </div>
+            <div class="collection-items__item">
+              <img src="images/content/collection5.jpg" alt="3д принтер" class="collection-items__images">
+              <div class="collection-items__info">
+                <h6 class="collection-items__info-title">3D-печать</h6>
+                <p class="collection-items__info-text">технология создания физического объекта из цифровой 3D-модели
+                  путем послойного добавления материала.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__info">
+              <h6 class="footer__info-title">Оставте заявку</h6>
+              <p class="footer__info-text">Мы готовы ответить на ваши вопросы</p>
+              <a href="mailto:info@2ps4.ru" class="info-email">info@2ps4.ru</a>
+              <form action="" class="footer__form">
+                <input type="email" class="footer__form-input" placeholder="E-mail">
+                <button class="footer__form-button button" type="submit">Отправить</button>
+              </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--instagram"
+                  href="#">Instagram</a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--whatsapp"
+                  href="#">WhatsApp</a></li>
+              <li class="footer__social-item"><a class="footer__social-link footer__social-link--globe"
+                  href="#">2ps4.ru</a></li>
+            </ul>
+            <nav class="footer__menu extra-menu">
+              <ul class="extra-menu__menu-list">
+                <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Доставка</a></li>
+                <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Тендеры</a></li>
+                <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Оптовые закупки</a></li>
+                <li class="extra-menu__menu-item"><a href="#" class="extra-menu__menu-link">Индивидуальный заказ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <p>Copyright © 2022</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
