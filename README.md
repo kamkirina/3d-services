@@ -18,9 +18,9 @@
 
 **Минимизация картинок и сборка:** GULP
 
-[Главная страница](dist/index.html)
-[О нас](dist/about.html)
-[Галлерея](dist/gallery.html)
-[Контакты](dist/contact.html)
-[Блог общая](dist/blog.html)
-[Блог публикация](dist/blog-one.html)
+-[Главная страница](dist/index.html)
+-[О нас](dist/about.html)
+-[Галлерея](dist/gallery.html)
+-[Контакты](dist/contacts.html)
+-[Блог общая](dist/blog.html)
+-[Блог публикация](dist/blog-one.html)
